@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableImport", "DataTableImport\DataTableImport.csproj", "{390718D7-8188-4716-A49D-116098EEFA7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableImport.Test", "DataTableImport.Test\DataTableImport.Test.csproj", "{F8917963-C3F9-4C7D-9E3F-CA8AC2AC329C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{390718D7-8188-4716-A49D-116098EEFA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{390718D7-8188-4716-A49D-116098EEFA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{390718D7-8188-4716-A49D-116098EEFA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8917963-C3F9-4C7D-9E3F-CA8AC2AC329C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8917963-C3F9-4C7D-9E3F-CA8AC2AC329C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8917963-C3F9-4C7D-9E3F-CA8AC2AC329C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8917963-C3F9-4C7D-9E3F-CA8AC2AC329C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
