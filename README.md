@@ -109,3 +109,18 @@ public class AddressMapperMultiple : IMultipleColumnPropertyMapper<Address>
         }
 }
 ```
+To use mapper class you need to use method UseMapper and pass instance of mapper class inside.
+```
+var source = new DataTable();
+        
+        var importBuilder = new ImportBuilder<Employee>(source);
+
+        var addressMapper = new AddressMapperMultiple();
+
+        importBuilder.Property(e => e.Address)
+            .FromColumns(new[] {"A", "B"})
+            .UseMapper(addressMapper);
+
+        var models = importBuilder.Build();
+```
+
