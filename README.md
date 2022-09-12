@@ -94,3 +94,18 @@ importBuilder.Property(e => e.Address)
 
 var models = importBuilder.Build();      
 ```
+### Maping from multimpe columns to property using mapper
+
+```
+public class AddressMapperMultiple : IMultipleColumnPropertyMapper<Address>
+{
+        public Address Map(object[] source)
+        {
+            return new Address()
+            {
+                Street = (string) source[0],
+                PostCode = (string) source[1]
+            };
+        }
+}
+```
